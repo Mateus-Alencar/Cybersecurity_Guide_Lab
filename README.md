@@ -1,7 +1,7 @@
 # Guia Prático de Cibersegurança  
 ---
 
-## Descriçãod o projeto
+## Descrição do projeto
 
 Este repositório é um **guia prático de cibersegurança** com foco em **análise de vulnerabilidades**, abordando como os ataques funcionam e como proteger sistemas e redes.  
 
@@ -38,6 +38,13 @@ Este repositório inclui exercícios práticos como:
 conteúdo sendo preparado
 
 ---
+## Ambiente de teste utilizado para os testes  
+
+Toda a arquitetura do ambiente, incluindo infraestrutura, serviços utilizados e organização do laboratório, está documentada no meu projeto:
+
+🔗 [**HomeLab**](https://github.com/Mateus-Alencar/My_Homelab)
+
+O projeto **HomeLab** apresenta a arquitetura completa do ambiente de testes, servidores, containers, ferramentas utilizadas e cenários implementados para experimentação e aprendizado em cibersegurança e infraestrutura  
 
 ## Ferramentas Utilizadas  
 
