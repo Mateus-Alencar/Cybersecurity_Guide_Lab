@@ -19,6 +19,7 @@ Cenários a serem apresentandos:
     - [Componentes de rede](./Conceitos/Componentes_rede_corporativa.md)  
     - [Endereçamento IP](./Conceitos/enderecamento_ip.md)  
     - [Redes de computadores](./Conceitos/rede_computadores.md)  
+- [Tipos de ataques](./tipos_ataque.md)
 - [Readme](./README.md)  
 
 ---
