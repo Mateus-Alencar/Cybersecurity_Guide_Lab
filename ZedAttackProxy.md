@@ -26,6 +26,7 @@ sudo docker run -d \
 # -host 0.0.0.0: Obriga o ZAP a escutar em todas as interfaces de rede do container  
 # -config api.addrs.addr.name=.*: Libera a API interna para aceitar requisições de qualquer origem na rede.
 #-config api.disablekey=true: Desativa temporariamente a obrigatoriedade de uma chave de API para o seu primeiro login na interface Webswing.
+
 ```
 
 ### Referências
