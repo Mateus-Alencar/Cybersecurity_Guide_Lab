@@ -8,26 +8,13 @@ O Zed Attack Proxy (ZAP) é uma ferramenta gratuita e de código aberto desenvol
 - **Varredura Passiva**: Analisa o tráfego de forma silenciosa em segundo plano. Ela busca falhas aparentes como cabeçalhos inseguros sem realizar alterações ou injetar dados.  
 - **Automação (CI/CD)**: Pode funcionar de forma automatizada via linha de comando ou API integrada.  
 
-**Instânciação em Docker**
-```bash
-sudo docker run -d \
-  --name owasp-zap-web \
-  -p 8080:8080 \
-  -p 8090:8090 \
-  -v /home/mateus/zap:/home/zap/.zap/:rw \
-  zaproxy/zap-stable:latest \
-  zap-webswing.sh 
+### Instrutivos
 
-
-# -d - Executa o container em segundo plano
-# 8080:8080: Conecta a porta 8080 da sua máquina local à porta 8080 interna do container.
-# -p 8090:8090: Adiciona a porta padrão que o ZAP usa internamente como proxy.
-# :rw: Dá permissão de read e write para o container
-# zap-webswing.sh: O script que inicializa o OWASP ZAP dentro do container.
-# -host 0.0.0.0: Obriga o ZAP a escutar em todas as interfaces de rede do container  
-# -config api.addrs.addr.name=.*: Libera a API interna para aceitar requisições de qualquer origem na rede.
-#-config api.disablekey=true: Desativa temporariamente a obrigatoriedade de uma chave de API para o seu primeiro login na interface Webswing.
-```
+**Gerar relatório sobre resultado da varredura**  
+1. Vá no menu superior e clique em `Report`  
+2. Escolha `Generate Report`  
+3. Selecione o formato `HTML` ou `PDF`  
+4. Salve o arquivo  
 
 ### Referências
 - [Documentação oficial](https://www.zaproxy.org/getting-started/)
