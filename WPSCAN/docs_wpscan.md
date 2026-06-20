@@ -1,4 +1,4 @@
-## WPScan
+ ## WPScan
 
 O WPScan é uma ferramenta de segurança especializada em identificar informações e possíveis vulnerabilidades em sites WordPress. Ela realiza enumeração de usuários, plugins, temas, versões do WordPress e consulta uma base de dados de **vulnerabilidades conhecidas**  
 

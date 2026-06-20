@@ -18,13 +18,14 @@
   - Permite comunicação entre máquinas locais
   - Pode ter VLANs
 
-- **Servidor DNS**
-  - Ele gerencia recursos internos
-  - Acelera o acesso à internet por meio de cache 
-  - Aumenta a segurança ao bloquear sites maliciosos 
-  - Traduz nomes para IPs.
+- **Servidor DNS**  
+![](./Imagens/DNS.png)
+  - Ele gerencia recursos internos  
+  - Acelera o acesso à internet por meio de cache   
+  - Aumenta a segurança ao bloquear sites maliciosos  
+  - Traduz nomes para IPs  
   >[!NOTE]  
-  > Permite que funcionários acessem recursos internos da empresa (como servidores de arquivos, impressoras ou intranets) usando nomes amigáveis (ex: servidor-arquivos.empresa.local) em vez de endereços IP numéricos.
+  > Permite que funcionários acessem recursos internos da empresa (como servidores de arquivos, impressoras ou intranets) usando nomes amigáveis (ex: servidor-arquivos.empresa.local) em vez de endereços IP numéricos.  
 
 - **VPN (Virtual Private Network)**
     - Permite acesso remoto seguro à rede da empresa.
