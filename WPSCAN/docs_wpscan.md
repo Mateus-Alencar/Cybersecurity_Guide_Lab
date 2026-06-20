@@ -45,7 +45,7 @@ wpscan --url https://site.com \
 wpscan --url https://site.com --plugins-detection mixed
 
 # Modo de agressividade: aggressive
-wpscan --url https://site.com --plugins-detection aggressive
+wpscan --url https://site.com --plugins-detection aggressive 
 ```
 
 ### Modos disponíveis  
